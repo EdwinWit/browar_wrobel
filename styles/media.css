@@ -1,0 +1,82 @@
+/* ----------iPhone5------------------*/
+@media only screen
+    and (min-device-width: 320px)
+    and (max-device-width: 568px) {
+
+        .menu-btn {
+            position: absolute;
+            left: 90%;
+            top: 40%;
+            padding-right: 8px;
+            margin-top: -0.50em;
+            line-height: 1.2;
+            font-size: 18px;
+            font-weight: 200;
+            vertical-align: middle;
+            z-index: 99;
+        }
+
+        .menu-btn span {
+            display: block;
+            width: 45px;
+            height: 8px;
+            margin: 6px 0;
+            background: #f6a740;
+            /*opacity: 0.8;*/
+            z-index: 99;
+        }
+
+        .responsive-menu{
+            display: none;
+            background-color: black;
+            position: absolute;
+            /*left: 89%;
+            right: 11%;*/
+            top: 100%;
+            width: 100%;
+            box-sizing: border-box;
+            border-top: 1px solid #f6a740;
+        }
+
+        .expand {
+        display: block /*!important*/;
+        }
+
+        .responsive-menu a{
+            font-size: 2.5em;
+            letter-spacing: 0.1em;
+        }
+
+        .responsive-menu a:hover {
+            border-bottom: none;
+        }
+
+        nav{
+            height: 150px;
+            opacity: 1;
+        }
+
+        nav.scroll{
+            height: 75px;
+        }
+
+        #logo{
+            width: 150px;
+            height: 150px;
+        }
+
+
+}
+
+/*nawigacja w jednej linii dla PC*/
+@media only screen
+    and (min-device-width: 1000px)
+    {
+        .responsive-menu li{
+        float: left;
+        }
+
+        .responsive-menu ul{
+            float:right;
+        }
+}
