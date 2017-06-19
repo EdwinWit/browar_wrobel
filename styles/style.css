@@ -1,7 +1,7 @@
 html {
     padding: 0;
     margin: 0;
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Montserrat', sans-serif;
     color: white;
 }
 
@@ -119,6 +119,7 @@ header p {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .portret {
@@ -134,20 +135,23 @@ header p {
     margin-right: 5%;
     width: 40%;
     text-align: justify;
+    font-size: 1.5em;
 }
 
 #about {
     margin-top: 800px;
+    padding-top: 100px;
 }
 
-h3 {
+h2 {
     text-align: center;
-    font-size: 2em;
+    font-size: 2.5em;
 }
 
 #piwa {
     width: 30%;
     margin: 200px auto;
+    padding-top: 100px;
 }
 
 #piwa img {
@@ -157,16 +161,38 @@ h3 {
 
 #piwa p {
     text-align: center;
+    font-size: 1.2em;
 }
 
 #kontakt {
     margin: 200px auto;
+    padding-top: 100px;
 }
 
 #kontakt p {
-    text-align: center;
+    text-align: justify;
     width: 450px;
     margin: 0 auto;
+    font-size: 1.2em;
+    /*-moz-text-align-last: center;*/
+    /*text-align-last: center;*/
+}
+
+#kontakt>p>span {
+    text-align: center;
+}
+
+#dojazd {
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+#map {
+    width: 400px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 footer {

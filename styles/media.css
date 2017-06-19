@@ -1,11 +1,9 @@
-/* ----------iPhone5------------------*/
 @media only screen
-    and (min-device-width: 320px)
-    and (max-device-width: 568px) {
+    and (max-width: 1000px) {
 
         .menu-btn {
             position: absolute;
-            left: 90%;
+            right: 5%;
             top: 40%;
             padding-right: 8px;
             margin-top: -0.50em;
@@ -26,7 +24,7 @@
             z-index: 99;
         }
 
-        .responsive-menu{
+        .responsive-menu {
             display: none;
             background-color: black;
             position: absolute;
@@ -42,7 +40,7 @@
         display: block /*!important*/;
         }
 
-        .responsive-menu a{
+        .responsive-menu a {
             font-size: 2.5em;
             letter-spacing: 0.1em;
         }
@@ -51,18 +49,37 @@
             border-bottom: none;
         }
 
-        nav{
+        nav {
             height: 150px;
             opacity: 1;
         }
 
-        nav.scroll{
+        nav.scroll {
             height: 75px;
         }
 
-        #logo{
+        #logo {
             width: 150px;
             height: 150px;
+        }
+
+        .portret {
+            width:100%;
+        }
+
+        .bio {
+            width:100%;
+            margin-top: 100px;
+            margin-bottom: 100px;
+        }
+
+        .person:nth-child(3) {
+            flex-direction: column-reverse;
+        }
+
+        #about {
+            margin-left: 5%;
+            margin-right: 5%;
         }
 
 
@@ -70,7 +87,7 @@
 
 /*nawigacja w jednej linii dla PC*/
 @media only screen
-    and (min-device-width: 1000px)
+    and (min-width: 1000px)
     {
         .responsive-menu li{
         float: left;
